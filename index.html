@@ -12,12 +12,9 @@
   <a href="#home">Home</a>
   <a href="#Education">Skillset</a>
   <a href="#contact">Contact</a>
+  <a href="https://github.com/Pixako-Unrealistia/Verysadcv">Github</a>
+  <a href="tos.html">TOS</a>
 </div>
-
-
-
-
-
 
 
 
@@ -54,10 +51,36 @@
 
 
 <div class="img2">
-  <div class="caption">
-  <span class="border" id ="contact">Work in progress ka</span>
-  </div>
+  <div class="lesser">
+  <span class="border" id ="contact">Contact me</span>
+  
+  
+
+	<div id="contact-form">
+		<form method="POST" action="https://formspree.io/f/meqnyvbn">
+			<input type="hidden" name="_subject" value="Contact request from personal website" />
+			<input type="email" name="_replyto" placeholder="Your email" required>
+			<textarea name="message" placeholder="Your message" required></textarea>
+			<button onclick="termsanagreement()" type="submit">Send</button>
+		</form>
+	</div>
 </div>
+
+
+</div>
+  
+  
+  
+</div>
+
+
+<script>
+function termsanagreement() {
+  if(confirm("Would you adhere to our TOS?")){
+		$(location).attr("href", "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  };
+}
+</script>
 
 
 </body>

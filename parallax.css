@@ -19,7 +19,7 @@ body, html {
 }
 
 .img2 {
-  background-image: url("https://i.makeagif.com/media/1-03-2017/k0kFcu.gif");
+  background-image: url("https://i.gifer.com/6zvA.gif");
   min-height: 100%;
 }
 
@@ -33,7 +33,7 @@ body, html {
 
 }
 
-.caption span.border {
+.caption span.border, .lesser span.border {
   background-color: transparent;
   text-shadow: 1vw 1vw 2vw black;
   color: #fff;
@@ -42,21 +42,17 @@ body, html {
   letter-spacing: 1vw;
 }
 
-.caption span.lesser {
-	font-size: 2vw;
-	
+.lesser {
+  position: top;
+  padding-top: 10vw;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+
 }
 
-.caption span.forms {
-	vertical-align: text-bottom;
-	background-color: transparent;
-	text-shadow: 1vw 1vw 2vw black;
-	color: #fff;
-	padding: 1vw;
-	font-size: 3vw;
-	letter-spacing: 1vw;
-	bottom: 0px;
-}
+
 
 h3 {
   letter-spacing: 5px;
@@ -115,3 +111,52 @@ d:hover{
 	background: #ddd;
 	color: black;
 }
+
+
+#contact-form {
+    max-width: 60vw;
+    margin: 0 auto;
+}
+#contact-form input, #contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: none;
+    margin-bottom: 1vw;
+    background: darken(var(--base-color), 15%);
+    border: 1px solid black;
+    color: #fff;
+}
+#contact-form:focus {
+    outline: none;
+    background: darken(var(--base-color), 25%);
+}
+
+
+#contact-form textarea {
+    height: 50vw;
+    resize: none;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 2vw;
+    padding: 1vw 4vw;
+    border: none;
+    color: var(--base-color);
+    font-weight: 700;
+    box-shadow: 0 0.1vw 0.5vw rgba(0,0,0,0.12), 0 0.3vw 0.3vw rgba(0,0,0,0.24);
+}
+
+#contact-form button:hover {
+    background-color: grey;
+}
+
+
+
+
+
+
