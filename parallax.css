@@ -47,6 +47,17 @@ body, html {
 	
 }
 
+.caption span.forms {
+	vertical-align: text-bottom;
+	background-color: transparent;
+	text-shadow: 1vw 1vw 2vw black;
+	color: #fff;
+	padding: 1vw;
+	font-size: 3vw;
+	letter-spacing: 1vw;
+	bottom: 0px;
+}
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -57,7 +68,7 @@ h3 {
 	color: #777;
 	background-color:black;
 	text-align:center;
-	padding:50% 80px;
+	padding:5% 80px;
 	text-align: justify;
 }
 
@@ -95,9 +106,9 @@ d:hover{
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 1vw 1.2vw;
+	padding: 1vw 1.5vw;
 	text-decoration: none;
-	font-size: 3.2vw;
+	font-size: 2.7vw;
 }
 
 .navbar a:hover {
