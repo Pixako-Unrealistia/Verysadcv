@@ -59,8 +59,8 @@
 	<div id="contact-form">
 		<form method="POST" action="https://formspree.io/f/meqnyvbn">
 			<input type="hidden" name="_subject" value="Contact request from personal website" />
-			<input type="email" name="_replyto" placeholder="Your email" required>
-			<textarea name="message" placeholder="Your message" required></textarea>
+			<input type="email" name="_replyto" placeholder="Your email" class ="tmp" required>
+			<textarea name="message" placeholder="Your message" class ="tmp" required></textarea>
 			<button onclick="termsanagreement()" type="submit">Send</button>
 		</form>
 	</div>
@@ -76,7 +76,7 @@
 
 <script>
 function termsanagreement() {
-  if(confirm("Would you adhere to our TOS?")){
+  if(confirm("Would you adhere to our TOS? (Optional)")){
 		$(location).attr("href", "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   };
 }

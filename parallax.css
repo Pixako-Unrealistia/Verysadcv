@@ -49,13 +49,15 @@ body, html {
   top: 50%;
   width: 100%;
   text-align: center;
-
+  font-size: 2vw;
 }
 
-
+.tmp {
+	font-size: 1.5vw;
+}
 
 h3 {
-  letter-spacing: 5px;
+  letter-spacing: 1vw;
   text-transform: uppercase;
   color: #111;
 }
@@ -64,7 +66,7 @@ h3 {
 	color: #777;
 	background-color:black;
 	text-align:center;
-	padding:5% 80px;
+	padding:5% 10vw;
 	text-align: justify;
 }
 
@@ -125,7 +127,7 @@ d:hover{
     border: none;
     margin-bottom: 1vw;
     background: darken(var(--base-color), 15%);
-    border: 1px solid black;
+    border: 0.2vw solid black;
     color: #fff;
 }
 #contact-form:focus {
